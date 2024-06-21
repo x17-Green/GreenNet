@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4aa7a1921602ba7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SRS_Documentations/Scope, Methodology, Design Documentation and Engineering Tasks for GreenNet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SRS_Documentations/Scope, Methodology, Design Documentation and Engineering Tasks for GreenNet.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SRS_Documentations/Scope, Methodology, Design Documentation and Engineering Tasks for GreenNet.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SRS_Documentations/Scope, Methodology, Design Documentation and Engineering Tasks for GreenNet.md"
+                "file": "README.md"
               }
             }
           }
@@ -160,10 +147,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4aa7a1921602ba7e",
+  "active": "778654d283711699",
   "lastOpenFiles": [
-    "README.md",
     "SRS_Documentations/Scope, Methodology, Design Documentation and Engineering Tasks for GreenNet.md",
+    "srs_docs/diagram-export-6-6-2024-7_36_57-PM.png",
+    "srs_docs/diagram-export-6-6-2024-5_45_44-PM.png",
+    "srs_docs/Scope, Methodology, Design Documentation and Engineering Tasks for GreenNet.pdf",
+    "srs_docs/Scope, Methodology, Design Documentation and Engineering Tasks for GreenNet.md",
+    "srs_docs/Engineer 3 - Project Proposal - ChatPulse (Uzo).md",
+    "srs_docs/Engineer 1 - Project Proposal - ﻿GreenNet.md",
+    "srs_docs/Engineer 1 - GreenNet User Stories.md",
+    "srs_docs/Engineer 1 - GreenNet MVP Flowchart Architecture.md",
+    "srs_docs/Engineer 1 - GreenNet Engineering Tasks.md",
+    "srs_docs/Engineer 1 - GreenNet Data Models.md",
+    "srs_docs/Energy Management Project Segments.md",
+    "srs_docs",
+    "requirements.txt",
+    "app/utils",
+    "app/services",
+    "app/models",
+    "app/controllers",
+    "app",
+    "config",
+    "README.md",
     "SRS_Documentations/Scope Methodology, Design Documentation and Engineering Tasks for GreenNet.md",
     "SRS_Documentations/Engineer 1 - GreenNet Data Models.md",
     "SRS_Documentations/diagram-export-6-6-2024-5_45_44-PM.png",
