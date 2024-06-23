@@ -93,7 +93,15 @@ engine = create_engine(f'mysql+mysqlconnector://{DB_USERNAME}:{DB_PASSWORD}@{DB_
 try:
     connection = engine.connect()
     print("Connected to the database...!")
-    query = text("DROP TABLE mytable")
+    print("\nList of Databases\n=====================\n")
+    query = text("""
+        CREATE TABLE users (
+            id INT PRIMARY KEY,
+            username VARCHAR(50),
+            email VARCHAR(100) UNIQUE,
+            password VARCHAR(100)
+        )
+    """)
     result = connection.execute(query)
     for row in result:
         print(row)
