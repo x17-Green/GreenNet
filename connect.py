@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # MySQL Database connector
 
-from sqlalchemy import create_engine, text # type: ignore
+from sqlalchemy import create_engine, text  # type: ignore
 from dotenv import load_dotenv
 import os
 
@@ -42,7 +42,7 @@ import os
 #     """
 
 #     # Connection string
-#     db_url = f'mysql+mysqlconnector://{username}:{password}@{host}:{port}/{database}'
+#     db_url = (f'mysql+mysqlconnector://{username}:{password}@{host}:{port}/{database}'
 
 #     # Access to the engine
 #     engine = create_engine(db_url)
@@ -88,12 +88,15 @@ DB_PORT = int(os.getenv('DB_PORT'))
 DB_NAME = os.getenv('DB_NAME')
 
 # Create and access the engine
-engine = create_engine(f'mysql+mysqlconnector://{DB_USERNAME}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}')
+engine = create_engine(
+    f'mysql+mysqlconnector://{DB_USERNAME}:{DB_PASSWORD}@'
+    f'{DB_HOST}:{DB_PORT}/{DB_NAME}'
+    )
 
 try:
     connection = engine.connect()
     print("Connected to the database...!")
-    print("\nList of Databases\n=====================\n")
+    print("\nCreating Tables in Databases\n=====================\n")
     query = text("""
         CREATE TABLE users (
             id INT PRIMARY KEY,
