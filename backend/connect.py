@@ -96,15 +96,8 @@ engine = create_engine(
 try:
     connection = engine.connect()
     print("Connected to the database...!")
-    print("\nCreating Tables in Databases\n=====================\n")
-    query = text("""
-        CREATE TABLE users (
-            id INT PRIMARY KEY,
-            username VARCHAR(50),
-            email VARCHAR(100) UNIQUE,
-            password VARCHAR(100)
-        )
-    """)
+    print("\nList of Databases\n=====================\n")
+    query = text("SHOW DATABASES")
     result = connection.execute(query)
     for row in result:
         print(row)
