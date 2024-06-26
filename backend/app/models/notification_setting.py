@@ -1,12 +1,10 @@
 #!usr/bin/python3
 # Notification Setting class model
 
-from flask_sqlalchemy import SQLAlchemy, table
-
-db = SQLAlchemy()
+from utils.db import db
 
 class NotificationSetting(db.Model):
-    __table__ = "notification_settings"
+    __tablename__ = "notification_settings"
     id = db.Column(db.Integer, primary_key=True, autoincrement=True)
     user_id = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     device_id = db.relationship('devices.id', backref=db.backref('notifications', lazy=True))
