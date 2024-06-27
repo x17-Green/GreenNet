@@ -3,9 +3,10 @@
 
 from config.config import Config  # Imports my configuration script
 from utils.db import db  # Imports my database link
-from flask import Flask, jsonify
+from flask import Flask, jsonify, cli
 from flask_migrate import Migrate
 from flask_sqlalchemy import SQLAlchemy
+import click
 
 app = Flask(__name__)  # Initializes the flask framework
 app.config.from_object(Config)  # Links the app to the config file
@@ -18,7 +19,6 @@ from models import *  # Imports all my model classes
 # Create all tables within the application context
 with app.app_context():
     db.create_all()
-
 
 @app.route("/")
 def index():
