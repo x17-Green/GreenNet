@@ -1,0 +1,22 @@
+body {
+  padding-top: 70px; /* Adjust based on navbar height */
+  background-color: #90cdab; /* Light gray background */
+}
+.hero-section {
+  background-image: url('../src/img/6417740.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 150px 0; /* Adjust spacing */
+}
+.section-padding {
+  padding: 80px 0;
+}
+.team-member {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}

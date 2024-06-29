@@ -2,7 +2,7 @@
 
 ## **Console**
 
-> This console application has some security concerns and areas for improvement:
+> The console application has some security concerns and areas for improvement:
 
 1. **Hardcoded credentials**: The `gnetadmin_user` and `gnetadmin_pass` variables are hardcoded, which is a significant security risk. Instead, consider storing credentials securely, such as using environment variables or a secure storage mechanism like a secrets manager.
 2. **Insecure password storage**: The `getpass` module is used to read the password, but the password is stored in plain text in the `password` variable. This is a security risk, as an attacker could access the password if they gain access to the system or the code. Consider using a secure password hashing algorithm like bcrypt or PBKDF2.
@@ -29,6 +29,7 @@ To improve the security of this console application, consider the following:
 
 ## **Database**
 
+### Intrusion Detection System (IDS)
 
 Yes, you can implement an Intrusion Detection System (IDS) in your database to detect and alert on potential security threats. Here are some ways to do it:
 
