@@ -1,0 +1,190 @@
+    * {
+        /* font-size: 105%; */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Custom fonts */
+    @font-face {
+        font-family: 'Coco Gothic';
+        src: url('../src/fonts/CocoGothic-Bold_trial.ttf'); /* or.woff,.woff2, etc. */
+    }
+
+    body {
+        font-family: "Poppins", sans-serif;
+        line-height: 1.6;
+        background-color: #f7f7f7;
+        color: #333;
+        overflow: hidden;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    /* Navigation */
+
+    .navbar {
+        background-color: #2e865f;
+        padding: 10px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .navbar.container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+
+    /* Logo bar */
+
+    .logo-bar {
+        display: flex;
+        align-items: center; /* changed from center to baseline */
+        height: 100%; /* or a specific height value */
+    }
+
+    .logo-text-field {
+        line-height: 17px;
+    }
+
+    .logo-bar .logo-text {
+        font-family: 'Coco Gothic';
+        font-weight: 700;
+        font-style: normal;
+        font-size: 2rem;
+        text-decoration: none;
+        /* margin-bottom: -40px; */
+        color: #fff;
+        display: inline-flex;
+        vertical-align: baseline; /* added this property */
+    }
+
+    .logo-text-tagline {
+        /* margin-top: -40px; */
+        color: #ccc;
+        font-size: smaller;
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo-bar .logo img {
+        margin-right: 0.5em;
+        vertical-align: baseline; /* added this property */
+        height: 100%;
+        width: 50px;
+    }
+
+
+    .bg-dark {
+        /* background-color: #343a40 !; */
+        background-color: #1f2921 !important;
+        
+    } 
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-links li {
+        margin-right: 20px;
+    }
+
+    .nav-links a {
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+        color: #34c759;
+    }
+
+    /* Hero Section */
+
+    .hero {
+        /* background-image: url('https://picsum.photos/2000/1000'); */
+        background-image: url('../src/img/bg/lock_bg.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #333;
+        color: #fff;
+    }
+
+    .hero .container {
+        max-width: 800px; /* adjust the max-width to your liking */
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    /* Login Section */
+    /* Add some basic styling to the login form */
+    .login-container {
+        max-width: 300px;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    .form-control {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+    }
+    
+    .btn {
+        width: 100%;
+        height: 40px;
+        padding: 10px;
+        font-size: 16px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        background-color: #3e8e41;
+    }
+
+    /* Make footer static */
+    footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* ensure it's on top of other elements */
+    }
+
+    /* Prevent scrolling on login form */
+    .login-container {
+    overflow: hidden; /* add this to prevent scrolling */
+    height: 70vh; /* set the height to 100vh to fill the screen */
+    }

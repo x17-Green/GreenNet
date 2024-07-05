@@ -1,0 +1,194 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Login Container */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    overflow: hidden; /* add this to prevent scrolling */
+    /* border-radius: 10px; */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+/* Login Form */
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+h1.login-title {
+    color: #0d431a;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+}
+
+input[type="email"],
+input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* border: none; */
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+input[type="email"]::placeholder {
+    border: 0.5rem solid #ccc;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.login-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #34c759;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #207234;
+}
+
+.forgot-password {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.forgot-password a {
+    text-decoration: unset;
+    color: red;
+}
+
+.forgot-password a:hover {
+    color: #34c759;
+}
+
+.create-account {
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
+}
+
+.create-account a {
+    text-decoration: none;
+    color: #0d431a;
+    font-weight: 600;
+}
+
+/* Login Background */
+
+.login-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    filter: blur(10px);
+    transform: scale(1.1);
+}
+
+.bg-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    transform: scale(1.1);
+}
+
+/* Add some basic styling to the Gusto login section */
+.login-container {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.google-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+}
+
+.google-btn:hover {
+    background-color: #357ae8;
+}
