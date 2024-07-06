@@ -6,7 +6,7 @@ GreenNet is a micro-service based platform designed to provide secure user authe
 
 **Deployed Site:** [GreenNet](https://greennet-449121bf5812.herokuapp.com/)
 
-**Final Project Blog Article:** [Insert blog article URL] 
+**Final Project Blog Article:** [Blog Article: Medium](https://medium.com/@x17-green/greennet-4287c9a49fc7) 
 
 **Author(s) LinkedIn:** [Okoyen Ebisine Precious](https://www.linkedin.com/in/x17-green/)
 
@@ -16,39 +16,39 @@ As the world shifts towards renewable energy sources, the need for efficient ene
 
 ## **Technical Challenge**
 
-One of the significant technical challenges we faced was choosing the right database management system. Initially, we opted for MongoDB, but as we delved deeper into the project, we realized that MySQL was a more suitable choice for database modeling, particularly when working with Python. This change in database management systems has improved the overall performance and scalability of our platform.
+One of the significant technical challenges we faced was choosing the right database management system. Initially, I chose MongoDB, but as I dug deeper, I realised MySQL was a better fit for my Python-based project. This change in database management systems has improved the overall performance and scalability of my platform.
 
 ## **Technical Details**
 
 ### Backend Architecture
 
-The backend architecture is built using Python, with the Flask framework providing a lightweight and flexible foundation for our micro-service based approach. We have implemented two microservices: user management and device management. The user management microservice handles user authentication and authorization, while the device management microservice handles device registration, monitoring, and data analysis.
+The backend architecture is built using Python, with the Flask framework providing a lightweight and flexible foundation for our micro-service based approach. I created two micro-services: user management and device management. The user management micro-service handles user authentication and authorisation, while the device management micro-service handles device registration, monitoring, and data analysis.
 
 ### Database Modeling
 
-We have used Flask-SQLAlchemy for database modeling, which has provided a robust and efficient way to interact with our MySQL database. Our database schema is designed to ensure data consistency and integrity, with a focus on scalability and performance.
+I used Flask-SQLAlchemy for database modeling, which allowed me to interact efficiently with my MySQL database. I designed the database schema to ensure data consistency, integrity, and scalability.
 
 ### Frontend User Interface
 
-The frontend user interface is built using HTML, CSS, and Bootstrap, providing a responsive and user-friendly experience. We have also used JavaScript scripts to enhance the user interface and provide dynamic functionality.
+The frontend user interface is built using HTML, CSS, and Bootstrap, providing a responsive and user-friendly experience. I also added JavaScript scripts to enhance the interface and provide dynamic functionality.
 
 ### Deployment
 
-Our application is deployed using Heroku, which has provided a scalable and reliable platform for our micro-service based architecture.
+I deployed my application on Heroku, which has provided a scalable and reliable platform for our micro-service based architecture.
 
 ## **Project Timeline**
 
 ### Progress
 
-I would rate the progress I've made this week as 7 out of 10. We have made significant progress in developing the backend architecture, database modeling, and frontend user interface. However, we still have some work to complete to ensure that the platform meets the required standards.
+> I'd give myself a 7 out of 10 for the progress I've made this week. I've made significant strides in building the backend architecture, database modeling, and frontend user interface. However, I still have some work to do to ensure my platform meets the high standards I've set for it.
 
 ### Challenges
 
-One of the non-technical challenges we faced was getting started with the project. This was largely due to the complexity of the project's scope and the need to define a clear direction for the development process.
+One of the biggest hurdles I faced was simply getting started. The project's scope was daunting, and I needed to define a clear direction for my development process. It took some time to wrap my head around it, but I'm glad I pushed through.
 
 ### Next Steps
 
-Our team will continue to work on the project, focusing on the development of the micro-services and the integration of the authentication and device monitoring components. We will also explore opportunities for further collaboration and knowledge sharing with peers and industry experts.
+Now, I'll continue working on the project, focusing on developing the micro-services and integrating the authentication and device monitoring components. I'm also looking forward to collaborating with peers and industry experts, learning from their experiences, and sharing my own knowledge to improve my project.
 
 ---
 ## **Installation**
@@ -144,4 +144,4 @@ GreenNet is licensed under the [MIT License].
 
 ## **Conclusion**
 
-GreenNet is a micro-service based platform for secure user authentication and device monitoring in energy management. We have faced technical challenges, including choosing the right database management system, and non-technical challenges, such as getting started with the project. Despite these challenges, we are committed to delivering a high-quality project that meets the required standards.
+GreenNet is a micro-service based platform for secure user authentication and device monitoring in energy management. I have faced technical challenges, including choosing the right database management system, and non-technical challenges, such as getting started with the project. Despite these challenges, I am committed to delivering a high-quality project that meets the required standards.
