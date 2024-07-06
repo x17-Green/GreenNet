@@ -5,7 +5,9 @@
 GreenNet is a micro-service based platform designed to provide secure user authentication and device monitoring for energy management systems. The platform aims to ensure the secure and efficient management of users and devices, enabling a reliable and scalable energy management system.
 
 **Deployed Site:** [GreenNet | Empowering Energy Efficiency](https://greennet-449121bf5812.herokuapp.com/)
+
 **Final Project Blog Article:** [Insert blog article URL] 
+
 **Author(s) LinkedIn:** [Okoyen Ebisine Precious](https://www.linkedin.com/in/x17-green/)
 
 ## **Inspiration**
