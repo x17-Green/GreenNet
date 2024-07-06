@@ -1,14 +1,12 @@
 # routes.py
 from flask import Blueprint, redirect, url_for, request, render_template, jsonify
 from flask_login import LoginManager, login_user, login_required, logout_user, current_user
-# from flask_bcrypt import Bcrypt
 
 from.backup_utils import create_backup, restore_backup
 from.ftp_utils import FTPConnection
 from config.config import Config  # Import the Config object
 from.db import db
 from models.user import User
-# from app import bcrypt
 
 from.reg_form import RegistrationForm
 from.login_form import LoginForm
