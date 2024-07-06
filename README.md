@@ -53,7 +53,7 @@ Our team will continue to work on the project, focusing on the development of th
 ---
 ## **Installation**
 
-1. Clone the repository: `git clone https://github.com/[your-username]/GreenNet.git`
+1. Clone the repository: `git clone https://github.com/x17-Green/GreenNet.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Create a virtual environment: `python -m venv venv`
 4. Activate the virtual environment: `source venv/bin/activate`
@@ -64,7 +64,7 @@ Our team will continue to work on the project, focusing on the development of th
 1. Create a `.env` file with the following variables:
     - `FLASK_APP=app.py`
     - `FLASK_ENV=development`
-    - `DATABASE_URL=postgresql://green_net.db`
+    - `DATABASE_URL=postgresql://[your_database].db`
 2. Update the `config.py` file with your database configuration.
 	- `SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL')`
 
