@@ -16,7 +16,7 @@ As the world shifts towards renewable energy sources, the need for efficient ene
 
 ## **Technical Challenge**
 
-One of the significant technical challenges we faced was choosing the right database management system. Initially, I chose MongoDB, but as I dug deeper, I realised MySQL was a better fit for my Python-based project. This change in database management systems has improved the overall performance and scalability of my platform.
+One of the significant technical challenges I faced was choosing the right database management system. Initially, I chose MongoDB, but as I dug deeper, I realised MySQL was a better fit for my Python-based project. This change in database management systems has improved the overall performance and scalability of my platform.
 
 ## **Technical Details**
 
