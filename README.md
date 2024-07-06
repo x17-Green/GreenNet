@@ -4,7 +4,7 @@
 
 GreenNet is a micro-service based platform designed to provide secure user authentication and device monitoring for energy management systems. The platform aims to ensure the secure and efficient management of users and devices, enabling a reliable and scalable energy management system.
 
-**Deployed Site:** [GreenNet | Empowering Energy Efficiency](https://greennet-449121bf5812.herokuapp.com/)
+**Deployed Site:** [GreenNet](https://greennet-449121bf5812.herokuapp.com/)
 
 **Final Project Blog Article:** [Insert blog article URL] 
 
@@ -130,11 +130,16 @@ Contributions are welcome! If you'd like to contribute to GreenNet, please follo
 GreenNet is licensed under the [MIT License].
 
 ## **Screenshots**
+#### Landing Page
+![Landing Page](landing.png)
 
+#### Dashboard Screenshot
 ![Dashboard Screenshot](https://www.blackbox.ai/chat/screenshots/dashboard.png)
 
+#### Login Screenshot
 ![Login Screenshot](https://www.blackbox.ai/chat/screenshots/login.png)
 
+#### Register Screenshot
 ![Register Screenshot](https://www.blackbox.ai/chat/screenshots/register.png)
 
 ## **Conclusion**
