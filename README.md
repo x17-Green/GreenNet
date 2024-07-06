@@ -131,7 +131,7 @@ GreenNet is licensed under the [MIT License].
 
 ## **Screenshots**
 #### Landing Page
-![Landing Page](landing.png)
+![Landing Page](./static/src/img/bg/landing.png)
 
 #### Dashboard Screenshot
 ![Dashboard Screenshot](https://www.blackbox.ai/chat/screenshots/dashboard.png)
